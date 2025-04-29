@@ -29,6 +29,8 @@
 
 .section{
 
+    grid-column: span 2;
+
     background-color: rgb(185, 162, 238);
     text-align: center;
     border: 2px solid rgb(156, 118, 245);
@@ -39,6 +41,7 @@
 
     background-color: rgb(143, 240, 187);
     border: 2px solid rgb(62, 240, 142);
+    text-align: center;
 
 }
 
@@ -50,8 +53,8 @@
 .nav{
 
     display: block;
-    background-color: rgb(194, 134, 235);
-    height: 30px;
+    background-color: white;
+    height: 250px;
     border-radius: 15px;
     text-align: center;
     border: 2px solid rgb(175, 82, 236);
@@ -96,5 +99,11 @@ p{
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
+}
+
+
+.logo{
+
+    height: 200px;
 }
 
