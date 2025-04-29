@@ -21,7 +21,7 @@
 .aside{
 
     grid-row: span 2;
-    background-color: rgb(241, 143, 172);
+    background-color: rgb(241, 143, 172, 0.2);
     text-align: center;
     border: 2px solid rgb(243, 83, 131);
 }
@@ -31,7 +31,7 @@
 
     grid-column: span 2;
 
-    background-color: rgb(185, 162, 238);
+    background-color: rgb(185, 162, 238, 0.2);
     text-align: center;
     border: 2px solid rgb(156, 118, 245);
 }
@@ -39,7 +39,7 @@
 
 .header{
 
-    background-color: rgb(143, 240, 187);
+    background-color: rgb(143, 240, 187, 0.2);
     border: 2px solid rgb(62, 240, 142);
     text-align: center;
 
@@ -70,6 +70,8 @@
     text-align: center;
 
     border: 2px solid rgb(231, 223, 100);
+
+    margin-bottom: 10px;
     
 }
 
@@ -99,6 +101,8 @@ p{
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
+
+      margin:0px;
 }
 
 
