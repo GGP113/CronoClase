@@ -6,21 +6,24 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #e3f0f1;
+    background-color:white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center ;
     min-height: 100vh;
 }
 
 .container {
     text-align: center;
+    margin-top: 250px;
 }
 
 h1 {
     font-size: 2.5rem;
     margin-bottom: 40px;
     color: #333;
+    background-color: #fcb8b8;
+    border-radius: 8px ;
 }
 
 .cycle {
@@ -31,12 +34,14 @@ h1 {
 }
 
 .stage {
-    background-color: #fff;
+    background-color: #e97373;
     border-radius: 8px;
     padding: 20px;
     width: 120px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 150px;
 }
 
 .stage-number {
@@ -44,15 +49,31 @@ h1 {
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
+
 }
 
 .stage-name {
     font-size: 1rem;
-    color: #666;
+    color: #1c67bd;
 }
 
 .stage:hover {
-    background-color: #e2e2e2;
+    background-color: #fcb8b8;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(227, 238, 227) ;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+body {
+    background-image: url('img/logo.PNG');
+    background-size: cover%;        /* Ajusta la imagen al tamaño del contenedor */
+    background-repeat: no-repeat;  /* Evita que la imagen se repita */
+    background-position:;   /* Centra la imagen */
+  }
+  
