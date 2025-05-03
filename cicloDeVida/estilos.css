@@ -1,0 +1,116 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #dce2f1, #dfdfeb);
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 0 20px;
+}
+
+img {
+  flex: 1;
+  border-radius: 20px;
+  box-shadow: royalblue;
+}
+
+.contenido {
+  flex: 2;
+}
+
+h1 {
+  color: #e93ec4;
+  font-weight: 600;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font: weight 1000px;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 10px 0 10;
+}
+
+.enlaces {
+  /* display: flex;
+  gap: 16px;
+  margin-top: 20px; */
+}
+
+.social a {
+  /* text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 12px;
+  padding-top: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  justify-items: center;
+  margin: 5px; */
+}
+
+a img {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+a imag:hover {
+  transform: scale(1.1);
+}
+
+.etapas {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  /* background-color: #e93ec4; */
+}
+
+.tarjetas {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tarjetas:hover {
+  background-color: #7a828086;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tarjetas img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.tarjetas a {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tarjetas p {
+  font-size: 16px;
+  color: #3a3939;
+}

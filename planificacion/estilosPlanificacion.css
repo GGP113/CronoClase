@@ -1,0 +1,96 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #dce2f1, #dfdfeb);
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 0 20px;
+}
+
+img {
+  flex: 1;
+  border-radius: 20px;
+  box-shadow: royalblue;
+}
+
+.contenido {
+  flex: 2;
+}
+
+h1 {
+  color: #e93ec4;
+  font-weight: 600;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font: weight 1000px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 10px 0 10;
+}
+
+a img {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+a imag:hover {
+  transform: scale(1.1);
+}
+
+.etapas {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* background-color: #e93ec4; */
+}
+
+.tarjetas {
+  flex-direction: ;
+  background-color: white;
+  width: 90%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.tarjetas img {
+  width: 100px;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+.tarjetas h3 {
+  margin: 10px 0 5px;
+  font-size: 23px;
+  color: #333;
+  text-align: left;
+}
+
+.tarjetas ul li {
+  font-size: 20px;
+  color: #3a3939;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 10px;
+}
