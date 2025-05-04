@@ -1,4 +1,4 @@
-.container{
+.containerCronoClase{
 
     display: grid;
 
@@ -7,7 +7,7 @@
 
 }
 
-.container>*{
+.containerCronoClase>*{
     border-radius: 15px;
     margin: 10px;
 }
@@ -202,3 +202,46 @@ body{
 }
 
 
+
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #B2A5FF;
+  }
+  
+  
+  .navCronoClase{
+  
+  
+    
+    font-family: "Rhodium Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+    color: #493d9e;
+    font-weight: bold;
+  
+  
+  }
+  
+  .navCronoClase>*{
+  
+    border: 2px solid #493d9e;
+    padding: 3px;
+  }
+
+
+  a img {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.clockCronoClase{
+
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  
+  
+  }
