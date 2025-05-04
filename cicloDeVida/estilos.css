@@ -195,7 +195,7 @@ h2{
 }
 
 
-.tarjetas>img{
+.tarjetas> a> img{
 
   border:2px solid #493d9e;
   border-radius: 50%;
