@@ -259,5 +259,30 @@ a img {
 
 }
 
+/*_______________________________________________________________
 
+SPRINT 1
+*/
+
+
+.MaincalendarS1{
+
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: 50px 40px 1fr 1fr 1fr 1fr; 
+    
+    gap:1rem;
+
+    border: 2px solid;
+
+
+
+
+}
+
+
+.MaincalendarS1>*{ 
+
+    border:2px solid;
+}
 
