@@ -1,0 +1,50 @@
+@import url(../scrum/style.css);
+
+
+
+.tableJira{
+
+    display: grid;
+
+     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+
+    margin: 3rem;
+    gap:10px
+  
+
+}
+
+.tableJira>*{
+
+    border: 2px solid;
+    border-radius: 15px;
+    text-align: center;
+            font-family: "Rhodium Libre", serif;
+        font-weight: 400;
+        font-style: normal;
+
+}
+
+
+.tableJira>div:first-child{
+
+    grid-column: span 3;
+    padding-top: 1rem;
+
+}
+
+
+
+.tableJira>div:first-child h1{
+
+  font-family: "Vibur", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 60px;
+  color: #493d9e;
+  font-weight: bold;
+
+
+}
