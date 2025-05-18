@@ -1,0 +1,33 @@
+@import url(../cicloDeVida/estilos.css);
+
+.DiseñoCV{
+
+    display: flex;
+    justify-content: center;
+    
+    
+    
+
+}
+
+
+.DiseñoCV>*{
+
+    border: 5px dotted;
+    width: 30rem;
+    margin: 1rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ListaFD{
+
+    text-align: left;
+}
+
+.headerFD{
+
+    
+}
