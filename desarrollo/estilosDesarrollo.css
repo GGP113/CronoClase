@@ -1,0 +1,52 @@
+@import url(../planificacion/estilosPlanificacion.css);
+
+
+.imgImp{
+
+    width: 100px;
+    height: 100px;
+}
+
+.tableImgDesing{
+
+    display: grid;
+     grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+
+      gap: 20px;
+      
+
+}
+
+
+.tableImgDesing>*{
+
+    
+    border-radius: 50%;
+    border: 2px solid #493d9e; 
+}
+
+
+
+
+.tarjetas_DESING{
+
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.tableImgDesing>img{
+
+    background-color: #DAD2FF;
+}
+
+.etapas{
+
+    margin-top: 0px;
+}
+
+.container {
+
+    margin-bottom: 0px;
+}

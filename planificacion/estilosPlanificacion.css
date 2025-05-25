@@ -13,6 +13,7 @@ body {
   align-items: center;
   padding: 0 20px;
   text-align: center;
+  justify-content: center;
 }
 
 img {
@@ -21,9 +22,7 @@ img {
   box-shadow: royalblue;
 }
 
-.contenido {
-  flex: 2;
-}
+
 
 
 

@@ -17,12 +17,13 @@
 
 .tableJira>*{
 
-    border: 2px solid;
+    border: 2px solid #493d9e;
     border-radius: 15px;
     text-align: center;
             font-family: "Rhodium Libre", serif;
         font-weight: 400;
         font-style: normal;
+    background-color:#FFF2AF85 ;
 
 }
 
@@ -47,4 +48,69 @@
   font-weight: bold;
 
 
+}
+
+
+.columnLogInJira{
+    
+    grid-row: span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.epc3Jira{
+    grid-row: span 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    
+}
+
+.epc3Jira>*{
+
+    border: 2px solid #493d9e;
+    border-radius: 15px;
+    height: 48%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.epcTittleJira >*{
+    text-decoration: none;
+    color: #493d9e;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.epcTittleJira {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.columEpc2Jira{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.epcTittleJira:hover{
+
+    background-color: #B2A5FF;
+    cursor: pointer;
+    
+}
+
+
+.epcTittleJira > a:hover{
+
+    color: #FFF2AF;
 }

@@ -261,6 +261,18 @@ a img {
 
 }
 
+
+.SprintTitle >div:hover{
+
+    background-color: #FFF2AF90;
+}
+
+.SprintTitle a{
+
+    text-decoration: none;
+    color:#493d9e;
+}
+
 /*_______________________________________________________________
 
 SPRINT 1
